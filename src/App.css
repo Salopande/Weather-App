@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wetherbg{
+  background:url("https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  height:50vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.heading{
   color: white;
+  font-weight: 700;
 }
-
-.App-link {
-  color: #61dafb;
+.wetherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
 }
+.wethericon{
+  width: 100px;
+  height: 100px;
+  margin-top: 2rem;
+}
+.wetherCity{
+  font-size: 35px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.wethertemp{
+ font-size: 55px;
+ font-weight: 700;
 }
